@@ -367,7 +367,7 @@ def handle_message_received(message):
         bot.send_message(chat_id, 'Introduceti numaru in formatul:\n🇲🇩 373xxxxxxxx')
 
     elif text == '📈Statistica':
-        bot.send_message(chat_id, f'📊Statistica📡!\nUtilizatori🙎‍♂: {users_amount[0]}\nNumarul de servisuri utilizate: 20\nБот запущен: 20.03.2020')
+        bot.send_message(chat_id, f'📊Statistica📡!\nUtilizatori🙎‍♂: {users_amount[0]}\nNumarul de servisuri utilizate: 20\nData lansarii: 20.11.2019')
 
 
     elif text == 'Anunt' and chat_id == ADMIN_CHAT_ID:
